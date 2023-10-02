@@ -1,4 +1,3 @@
-import Image from "next/image"
 import { SidebarRoutes } from "./sidebar-routes"
 import Link from "next/link"
 
@@ -12,7 +11,7 @@ export const Sidebar = () => {
             <rect x="6" y="6" width="41" height="20" rx="10" fill="#A5B4FC" className="ccompli2"></rect> 
             <circle cx="16" cy="16" r="5" fill="#000000"></circle> <circle cx="14" cy="14" r="1" fill="#ffffff"></circle> 
             <circle cx="38" cy="16" r="5" fill="#000000"></circle> <circle cx="36" cy="14" r="1" fill="#ffffff"></circle> 
-            <text x="60" y="25" fill="#4845D2" font-weight="bolder">MasteryMe</text>
+            <text x="60" y="25" fill="#4845D2" fontWeight="bolder">MasteryMe</text>
           </svg>
       </Link>
       </div>
